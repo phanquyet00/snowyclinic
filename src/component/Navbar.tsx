@@ -49,7 +49,7 @@ const Navbar = () => {
 
       {/* Logo */}
       <Link href="/">
-        <img src="/logo.png" alt="Logo" className="w-40" />
+        <img src="/logo.png" alt="Logo" height={50} width={100} />
       </Link>
 
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center py-4">

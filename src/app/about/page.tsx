@@ -12,6 +12,10 @@ export default function AboutPage() {
             <li>Chuyên gia giàu kinh nghiệm.</li>
             <li>Công nghệ làm đẹp hiện đại.</li>
             <li>Không gian sang trọng, thư giãn.</li>
+            <li>Không gian sang trọng, thư giãn.</li>
+            <li>Không gian sang trọng, thư giãn.</li>
+            <li>Không gian sang trọng, thư giãn.</li>
+            <li>Không gian sang trọng, thư giãn.</li>
           </ul>
         </div>
         <h1 className="text-3xl font-bold mb-4">Giới Thiệu</h1>
