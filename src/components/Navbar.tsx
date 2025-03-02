@@ -17,11 +17,11 @@ const Navbar = () => {
       path: "/phun-theu",
       submenu: ["Điêu khắc chân mày", "Phun môi", "Phun mí"],
     },
-    {
-      title: "PHẪU THUẬT THẨM MỸ",
-      path: "/phau-thuat",
-      submenu: ["Nâng mũi", "Cắt mí mắt", "Gọt cằm"],
-    },
+    // {
+    //   title: "PHẪU THUẬT THẨM MỸ",
+    //   path: "/phau-thuat",
+    //   submenu: ["Nâng mũi", "Cắt mí mắt", "Gọt cằm"],
+    // },
     {
       title: "SPA – CHĂM SÓC DA",
       path: "/spa",
@@ -32,11 +32,11 @@ const Navbar = () => {
       path: "/dieu-tri-da",
       submenu: ["Trị nám", "Trị mụn", "Trẻ hóa da"],
     },
-    {
-      title: "NHA KHOA THẨM MỸ",
-      path: "/nha-khoa",
-      submenu: ["Tẩy trắng răng", "Bọc răng sứ", "Niềng răng"],
-    },
+    // {
+    //   title: "NHA KHOA THẨM MỸ",
+    //   path: "/nha-khoa",
+    //   submenu: ["Tẩy trắng răng", "Bọc răng sứ", "Niềng răng"],
+    // },
     {
       title: "TIN TỨC & SỰ KIỆN",
       path: "/tin-tuc",
@@ -48,16 +48,16 @@ const Navbar = () => {
     <nav className="bg-white shadow-md top-0 left-0 w-full z-50">
 
       {/* Logo */}
-      <Link href="/">
-        <img src="/logo.png" alt="Logo" height={50} width={100} />
+      <Link href="/" className="flex justify-center px-20">
+        <img src="/logo.png" alt="Logo" height={150} width={100} />
       </Link>
 
-      <div className="max-w-6xl mx-auto px-4 flex justify-between items-center py-4">
+      <div className="max-w-7xl mx-auto px-4 flex justify-center items-center py-4">
 
         {/* Menu */}
         <ul className="flex space-x-6 text-brown-800 font-semibold">
           <li>
-            <Link href="/about" className="hover:text-pink-500">
+            <Link href="/about" className="hover:text-pink-500 whitespace-nowrap">
               GIỚI THIỆU
             </Link>
           </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
               {/* Main menu item */}
               <button
                 onClick={() => toggleDropdown(menu.title)}
-                className="flex items-center space-x-1 hover:text-pink-500"
+                className="flex items-center space-x-1 hover:text-pink-500 whitespace-nowrap" 
               >
                 <span>{menu.title}</span>
                 <FaChevronDown size={12} />

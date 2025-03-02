@@ -1,7 +1,7 @@
 import "./globals.css";
-import Navbar from "@/component/Navbar";
-import ConsultationForm from "@/component/ConsultationForm";
-import FloatingToolbar from "@/component/FloatingToolbar";
+import Navbar from "@/components/Navbar";
+import ConsultationForm from "@/components/ConsultationForm";
+import FloatingToolbar from "@/components/FloatingToolbar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
