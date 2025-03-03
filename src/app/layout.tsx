@@ -1,4 +1,4 @@
-import "./globals.css";
+import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
 import ConsultationForm from "@/components/ConsultationForm";
 import FloatingToolbar from "@/components/FloatingToolbar";
