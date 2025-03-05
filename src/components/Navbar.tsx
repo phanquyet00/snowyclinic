@@ -11,13 +11,16 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState<number | null>(null);
 
   return (
-    <nav className="shadow-md fixed top-0 left-0 w-full z-50">
+    <nav className="bg-white dark:bg-black shadow-md fixed top-0 left-0 w-full z-50">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link href="/" className="text-2xl font-bold">
             SnowyClinic
           </Link>
           <div className="flex space-x-6">
+          <Link href="/about">
+          <NavButton text="GIỚI THIỆU" icon={null} />
+          </Link>
             {navItems.map((item, index) => (
               <div
                 key={index}

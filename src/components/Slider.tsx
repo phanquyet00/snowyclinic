@@ -19,21 +19,21 @@ const Slider = () => {
       >
         <SwiperSlide>
           <img
-            src="/images/banner1.webp"
+            src="/images/banners/banner1.webp"
             alt="Siêu hội làm đẹp"
             className="w-full h-auto"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/images/banner2.png"
+            src="/images/banners/banner2.webp"
             alt="Khuyến mãi spa"
             className="w-full h-auto"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="/images/banner3.png"
+            src="/images/banners/banner3.webp"
             alt="Ưu đãi thẩm mỹ"
             className="w-full h-auto"
           />

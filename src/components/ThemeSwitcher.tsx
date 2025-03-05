@@ -19,7 +19,7 @@ export default function ThemeSwitcher() {
       className="p-2 border rounded-lg"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
     >
-      {theme === "dark" ? "🌞 Chế độ sáng" : "🌙 Chế độ tối"}
+      {theme === "dark" ? "🌞" : "🌙"}
     </button>
   );
 }

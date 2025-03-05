@@ -25,6 +25,12 @@ body {
 }
 
 .dark body {
-  @apply bg-gray-900 text-white;
+  @apply bg-black text-white;
+}
+
+.bg-custom {
+  background-image: url('/public/images/banner1.webp');
+  background-size: cover;
+  background-position: center;
 }
 
