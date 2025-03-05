@@ -1,16 +1,15 @@
 import "@/styles/globals.css";
 import Navbar from "@/components/Navbar";
-import ConsultationForm from "@/components/ConsultationForm";
-import FloatingToolbar from "@/components/FloatingToolbar";
+import ThemeProviderWrapper from "@/components/ThemeProvider";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="vi">
+    <html lang="vi" suppressHydrationWarning>
       <body>
-        <Navbar />
-        {children}
-        <ConsultationForm />
-        <FloatingToolbar />
+        <ThemeProviderWrapper>
+          <Navbar />
+          {children}
+        </ThemeProviderWrapper>
       </body>
     </html>
   );

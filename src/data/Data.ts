@@ -1,22 +1,6 @@
 export const navItems = [
     {
-      title: "Trẻ hóa da",
-      services: [
-        { name: "Cấy Collagen", link: "/services/cay-collagen" },
-        { name: "Tái tạo da", link: "/services/tai-tao-da" },
-        { name: "Nâng cơ HIFU", link: "/services/nang-co-hifu" },
-      ],
-    },
-    {
-      title: "Điều trị da",
-      services: [
-        { name: "Trị mụn", link: "/services/tri-mun" },
-        { name: "Trị nám", link: "/services/tri-nam" },
-        { name: "Xóa xăm", link: "/services/xoa-xam" },
-      ],
-    },
-    {
-      title: "Phun xăm thẩm mỹ",
+      title: "PHUN THÊU THẨM MỸ",
       services: [
         { name: "Phun môi", link: "/services/phun-moi" },
         { name: "Phun mày", link: "/services/phun-may" },
@@ -24,19 +8,22 @@ export const navItems = [
       ],
     },
     {
-      title: "Triệt lông",
+      title: "SPA-CHĂM SÓC DA",
       services: [
-        { name: "Triệt lông nách", link: "/services/triet-long-nach" },
-        { name: "Triệt lông tay", link: "/services/triet-long-tay" },
-        { name: "Triệt lông chân", link: "/services/triet-long-chan" },
+        { name: "Chăm sóc da mặt", link: "/services/cham-soc-da-mat" },
+        { name: "Chăm sóc body", link: "/services/cham-soc-body" },
+        { name: "Triệt lông", link: "/services/triet-long" },
+        { name: "Dưỡng sáng ra", link: "/services/duong-sang-ra" },
+
       ],
     },
     {
-      title: "Chăm sóc da",
+      title: "ĐIỀU TRỊ DA",
       services: [
-        { name: "Massage mặt", link: "/services/massage-mat" },
-        { name: "Detox da", link: "/services/detox-da" },
-        { name: "Dưỡng trắng da", link: "/services/duong-trang-da" },
+        { name: "Điều trị sắc tố", link: "/services/dieu-tri-sac-to" },
+        { name: "Xóa xăm", link: "/services/xoa-xam" },
+        { name: "Nâng cơ", link: "/services/nang-co" },
+        { name: "Đưa dưỡng chất căng bóng", link: "/services/dua-duong-chat-cang-bong" },
       ],
     },
   ];
